@@ -11,7 +11,6 @@ int main()
     p.display();
     cout << "\nRoot [ Newton Raphson ] :" << p.newtonRaphson();
     cout << "\nRoot [ Secant Method ] :" << p.secantMethod();
-
     cout << "\nRoot [ Bisection Method ]: " << p.bisection();
     cout << "\nRoot [ Regula false Method ]: " << p.regulafalse();
 
